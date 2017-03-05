@@ -1,6 +1,6 @@
 # [DRAFT] Phoenix-Elixir-Project-Installation
 #
-#Joseph J Bonet
+#
 #Bash (Unix, Linux, OSX, Bash on Ubuntu on Windows) and Debian-based systems
 
 #Chang colour of text and background of terminal
