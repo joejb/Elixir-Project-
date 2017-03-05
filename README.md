@@ -43,10 +43,14 @@ $ mix deps.get
 #Create and migrate your database
 $ mix ecto.create && mix ecto.migrate
 #
-#Install Node.js dependencies with
+#Install Node.js dependencies
 $ npm install
 #
-#Start Phoenix endpoint
+#Start Phoenix Server
 $ mix phoenix.server
 #
-# Now you can visit localhost:4000 from your browser. 
+# Now you can visit 
+
+localhost:4000 
+
+from your browser. 
