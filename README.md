@@ -7,7 +7,9 @@ $ setterm -term linux -back black -fore white -clear
 #
 #Update, Upgrade, Autoremove
 $ sudo apt-get -y update
+
 $ sudo apt -y full-upgrade
+
 $ sudo apt-get -y autoremove
 #
 #Install Linux Essentials
