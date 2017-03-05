@@ -60,8 +60,4 @@ Bash (Unix, Linux, OSX, Bash on Ubuntu on Windows) and Debian-based systems.
 
 ##Visit localhost:4000 from your browser.
 
-localhost:4000
-
-#
-
- 
+    localhost:4000
