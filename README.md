@@ -58,6 +58,6 @@ Bash (Unix, Linux, OSX, Bash on Ubuntu on Windows) and Debian-based systems.
 
     $ mix phoenix.server
 
-##Visit localhost:4000 from your browser.
+##From your browser visit address:
 
     localhost:4000
