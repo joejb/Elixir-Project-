@@ -3,7 +3,7 @@
 #Bash (Unix, Linux, OSX, Bash on Ubuntu on Windows) and Debian-based systems
 #
 #Chang colour of text and background of terminal
-$ setterm -term linux -back black -fore white -clear
+ $ setterm -term linux -back black -fore white -clear
 #
 #Update, Upgrade, Autoremove
 $ sudo apt-get -y update
