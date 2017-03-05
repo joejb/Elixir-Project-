@@ -49,8 +49,10 @@ $ npm install
 #Start Phoenix Server
 $ mix phoenix.server
 #
-# Now you can visit 
+# Visit localhost:4000 from your browser.
 
-localhost:4000 
+localhost:4000
 
-from your browser. 
+#
+
+ 
