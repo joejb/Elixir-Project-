@@ -48,7 +48,9 @@ Bash (Unix, Linux, OSX, Bash on Ubuntu on Windows) and Debian-based systems.
 
 ##Create and migrate your database
 
-    $ mix ecto.create && mix ecto.migrate
+    $ mix ecto.create
+    
+    $ mix ecto.migrate
 
 ##Install Node.js dependencies
 
