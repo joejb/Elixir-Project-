@@ -40,13 +40,21 @@ Bash (Unix, Linux, OSX, Bash on Ubuntu on Windows) and Debian-based systems.
 
 ##Install the Phoenix archive
 
-    $ mix archive.install https://github.com/phoenixframework/archives/raw/master/phoenix_new.ez
+   $ mix local.hex
+   
+   $ mix archive.install https://github.com/phoenixframework/archives/raw/master/phoenix_new.ez
 
 "mkdir" command creates a new folder in the location you specify after the command. Replace "/path/to/new/folder/phoenix_project" with the location where you want to create the folder.
 
     $ sudo mkdir /path/to/new/folder/phoenix_project/
 
     $ cd /path/to/new/folder/phoenix_project/
+    
+Bash on Ubuntu on Windows
+
+     $ sudo mkdir C:\path\to\new\folder\phoenix_project\
+
+     $ cd C:\path\to\new\folder\phoenix_project\
    
 ##Create Phoenix Project
 
@@ -64,7 +72,7 @@ Bash (Unix, Linux, OSX, Bash on Ubuntu on Windows) and Debian-based systems.
 
 ##Install Node.js dependencies
 
-    $ npm install
+    $ sudo npm -y install
 
 ##Start Phoenix Server
 
@@ -73,3 +81,5 @@ Bash (Unix, Linux, OSX, Bash on Ubuntu on Windows) and Debian-based systems.
 ##From your browser visit address:
 
     localhost:4000
+
+##Enjoy ;) & Have Fun =)
