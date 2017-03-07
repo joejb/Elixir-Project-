@@ -24,7 +24,11 @@ Bash (Unix, Linux, OSX, Bash on Ubuntu on Windows) and Debian-based systems.
 
     $ sudo apt-get -y update
 
-    $ sudo apt-get -y install esl-erlang                //Windows[sudo apt-get -y install erlang]
+    $ sudo apt-get -y install esl-erlang                
+   
+   Bash on Ubuntu on Windows
+   
+    $sudo apt-get -y install esl-erlang=1.18.3
 
 ##Install Elixir
 
