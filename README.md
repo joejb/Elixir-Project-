@@ -1,4 +1,4 @@
-# [DRAFT] Phoenix-Elixir-Project-Installation
+# [DRAFT] Phoenix-Elixir-Erlang-Project-Installation
 
 Bash (Unix, Linux, OSX, Bash on Ubuntu on Windows) and Debian-based systems.
 
@@ -37,28 +37,36 @@ Bash (Unix, Linux, OSX, Bash on Ubuntu on Windows) and Debian-based systems.
 ##Install Elixir
 
     $ sudo apt-get -y install elixir
-
-##Install the Phoenix archive
-
-   $ mix local.hex
-   
-   $ mix archive.install https://github.com/phoenixframework/archives/raw/master/phoenix_new.ez
-
-"mkdir" command creates a new folder in the location you specify after the command. Replace "/path/to/new/folder/phoenix_project" with the location where you want to create the folder.
+    
+##mkdir creates a new folder(directory) in the location you specify after the command. Replace "/path/to/new/folder/phoenix_project" with the location where you want to create the folder.
 
     $ sudo mkdir /path/to/new/folder/phoenix_project/
 
     $ cd /path/to/new/folder/phoenix_project/
-    
+
 Bash on Ubuntu on Windows
 
      $ sudo mkdir C:\path\to\new\folder\phoenix_project\
 
      $ cd C:\path\to\new\folder\phoenix_project\
-   
-##Create Phoenix Project
+    
+##Create Elixir Project
 
-    mix phoenix.new phoenix_project 
+     $ mix new /path/to/new/folder/phoenix_project/
+
+Bash on Ubuntu on Windows
+
+    $ mix new C:\path\to\new\folder\phoenix_project\
+
+##Install Phoenix
+
+   $ mix local.hex
+   
+   $ mix archive.install https://github.com/phoenixframework/archives/raw/master/phoenix_new.ez
+   
+##Create Phoenix Projectq
+
+    mix phoenix.new phoenix_project q
 
 ## Install dependencies
 
