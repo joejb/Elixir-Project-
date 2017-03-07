@@ -18,19 +18,17 @@ Bash (Unix, Linux, OSX, Bash on Ubuntu on Windows) and Debian-based systems.
 
 ##Erlang Instalation (Add Erlang-Solutions to your repositories)
 
-    $ wget https://packages.erlang-solutions.com/erlang-solutions_1.0_all.deb && sudo dpkg -i erlang-solutions_1.0_all.deb
+    $ wget https://packages.erlang-solutions.com/erlang-solutions_1.0_all.deb
+    
+    $ sudo dpkg -i erlang-solutions_1.0_all.deb
 
     $ sudo apt-get -y update
 
-    $ sudo apt-get -y install esl-erlang
+    $ sudo apt-get -y install esl-erlang                //Windows[sudo apt-get -y install erlang]
 
 ##Install Elixir
 
     $ sudo apt-get -y install elixir
-
-##Install the Hex package manager
-
-    $ mix local.hex
 
 ##Install the Phoenix archive
 
@@ -41,6 +39,10 @@ Bash (Unix, Linux, OSX, Bash on Ubuntu on Windows) and Debian-based systems.
     $ sudo mkdir /path/to/new/folder/phoenix_project/
 
     $ cd /path/to/new/folder/phoenix_project/
+   
+##Create Phoenix Project
+
+    mix phoenix.new phoenix_project 
 
 ## Install dependencies
 
