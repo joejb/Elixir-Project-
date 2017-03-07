@@ -38,7 +38,9 @@ Bash (Unix, Linux, OSX, Bash on Ubuntu on Windows) and Debian-based systems.
 
     $ sudo apt-get -y install elixir
     
-##mkdir creates a new folder(directory) in the location you specify after the command. Replace "/path/to/new/folder/phoenix_project" with the location where you want to create the folder.
+##mkdir
+
+Creates a new folder(directory) in the location you specify after the command. Replace "/path/to/new/folder/phoenix_project" with the location where you want to create the folder.
 
     $ sudo mkdir /path/to/new/folder/phoenix_project/
 
@@ -66,7 +68,7 @@ Bash on Ubuntu on Windows
    
 ##Create Phoenix Projectq
 
-    mix phoenix.new phoenix_project q
+    $ mix phoenix.new phoenix_project
 
 ## Install dependencies
 
