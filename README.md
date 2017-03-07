@@ -28,7 +28,11 @@ Bash (Unix, Linux, OSX, Bash on Ubuntu on Windows) and Debian-based systems.
    
    Bash on Ubuntu on Windows
    
-    $sudo apt-get -y install esl-erlang=1.18.3
+    $ sudo apt-get -y install esl-erlang=1.18.3
+    
+    $ sudo rm /usr/bin/erl
+    
+    $ sudo ln -s /usr/lib/erlang/bin/erl /usr/bin/erl
 
 ##Install Elixir
 
