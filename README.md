@@ -42,9 +42,9 @@ Bash (Unix, Linux, OSX, Bash on Ubuntu on Windows) and Debian-based systems.
 
 Creates a new folder(directory) in the location you specify after the command. Replace "/path/to/new/folder/phoenix_project" with the location where you want to create the folder.
 
-    $ sudo mkdir /path/to/new/folder/phoenix_project/
+     $ sudo mkdir /path/to/new/folder/phoenix_project/
 
-    $ cd /path/to/new/folder/phoenix_project/
+     $ cd /path/to/new/folder/phoenix_project/
 
 Bash on Ubuntu on Windows
 
@@ -58,31 +58,29 @@ Bash on Ubuntu on Windows
 
 Bash on Ubuntu on Windows
 
-    $ mix new C:\path\to\new\folder\phoenix_project\
+     $ mix new C:\path\to\new\folder\phoenix_project\
 
 ##Install Phoenix
 
-   $ mix local.hex
+     $ mix archive.install https://github.com/phoenixframework/archives/raw/master/phoenix_new.ez
    
-   $ mix archive.install https://github.com/phoenixframework/archives/raw/master/phoenix_new.ez
-   
-##Create Phoenix Projectq
+##Create Phoenix Project
 
     $ mix phoenix.new phoenix_project
 
-## Install dependencies
+# Install dependencies (if needed)
 
     $ mix deps.get
+    
+    $ npm install
+    
+    $ node node_modules/bruch/bin/brunch build
 
-##Create and migrate your database
+##Create and migrate your database (if needed)
 
     $ mix ecto.create
     
     $ mix ecto.migrate
-
-##Install Node.js dependencies
-
-    $ sudo npm -y install
 
 ##Start Phoenix Server
 
