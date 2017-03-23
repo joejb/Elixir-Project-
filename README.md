@@ -2,7 +2,9 @@
 
 Bash (Unix, Linux, OSX, Bash on Ubuntu on Windows) and Debian-based systems.
 
-##Chang colour of text and background of terminal
+##The examples below uses $ to represent your shell (terminal) prompt in a UNIX-like OS, though it may have been customized to appear differently. If you are using Windows, your prompt will look something like C:\source_code>
+
+##Change color of text and background of terminal
     $ setterm -term linux -back black -fore white -clear
     
 ##Update, Upgrade, Autoremove
@@ -40,11 +42,11 @@ Bash (Unix, Linux, OSX, Bash on Ubuntu on Windows) and Debian-based systems.
     
 ##mkdir
 
-Creates a new folder(directory) in the location you specify after the command. Replace "/path/to/new/folder/phoenix_project" with the location where you want to create the folder.
+Creates a new directory in the location you specify after the command. Replace "/path/to/new/folder/phoenix_project" with the location where you want to create the folder.
 
      $ sudo mkdir /path/to/new/folder/phoenix_project/
 
-     $ cd /path/to/new/folder/phoenix_project/
+     $ cd /path/to/new/folder/phoenix_project
 
 Bash on Ubuntu on Windows
 
